@@ -35,14 +35,14 @@ struct invi_menuApp: App {
         }
 
         MenuBarExtra(currentNumber, systemImage: "medal") {
-            Button("One") {
+            Button("End-Point Protection") {
                 currentNumber = "1"
                 showNotification(number: "1")
             }
-            Button("Two") {
+            Button("User Behaviour Analytics") {
                 currentNumber = "2"
             }
-            Button("Three") {
+            Button("Endpoint Detection and Response") {
                 currentNumber = "3"
             }
         }
