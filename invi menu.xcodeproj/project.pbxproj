@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F9FF65A12B9064E500469ADD /* invi_menuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FF65A02B9064E500469ADD /* invi_menuApp.swift */; };
-		F9FF65A32B9064E500469ADD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FF65A22B9064E500469ADD /* ContentView.swift */; };
 		F9FF65A52B9064E700469ADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9FF65A42B9064E700469ADD /* Assets.xcassets */; };
 		F9FF65A82B9064E700469ADD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9FF65A72B9064E700469ADD /* Preview Assets.xcassets */; };
 		F9FF65B32B9064E700469ADD /* invi_menuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FF65B22B9064E700469ADD /* invi_menuTests.swift */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		F9FF659D2B9064E500469ADD /* invi menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "invi menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9FF65A02B9064E500469ADD /* invi_menuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invi_menuApp.swift; sourceTree = "<group>"; };
-		F9FF65A22B9064E500469ADD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F9FF65A42B9064E700469ADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9FF65A72B9064E700469ADD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F9FF65A92B9064E700469ADD /* invi_menu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = invi_menu.entitlements; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				F9FF65A02B9064E500469ADD /* invi_menuApp.swift */,
-				F9FF65A22B9064E500469ADD /* ContentView.swift */,
 				F9FF65A42B9064E700469ADD /* Assets.xcassets */,
 				F9FF65A92B9064E700469ADD /* invi_menu.entitlements */,
 				F9FF65A62B9064E700469ADD /* Preview Content */,
@@ -259,7 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9FF65A32B9064E500469ADD /* ContentView.swift in Sources */,
 				F9FF65A12B9064E500469ADD /* invi_menuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

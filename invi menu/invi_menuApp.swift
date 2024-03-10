@@ -21,7 +21,7 @@ struct invi_menuApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            EmptyView()
                 .onAppear {
                     UNUserNotificationCenter.current().delegate = notificationDelegate
                     UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in
@@ -34,7 +34,7 @@ struct invi_menuApp: App {
                 }
         }
 
-        MenuBarExtra(currentNumber, systemImage: "\(currentNumber).circle") {
+        MenuBarExtra(currentNumber, systemImage: "medal") {
             Button("One") {
                 currentNumber = "1"
                 showNotification(number: "1")
